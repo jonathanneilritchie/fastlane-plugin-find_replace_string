@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = %q{jonathan.ritchie@orionhealth.com}
 
   spec.summary       = %q{Find a string in a file and replace it with a new one.}
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-find_replace_string"
+  spec.homepage      = "https://github.com/jonathanneilritchie/fastlane-plugin-find_replace_string"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

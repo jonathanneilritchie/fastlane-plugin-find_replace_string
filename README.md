@@ -10,11 +10,15 @@ This project is a [fastlane](https://github.com/fastlane/fastlane) plugin. To ge
 fastlane add_plugin find_replace_string
 ```
 
+You may also add the following line to your Gemfile.
+
+```
+gem 'fastlane-plugin-find_replace_string', git: "https://github.com/jonathanneilritchie/fastlane-plugin-find_replace_string"
+```
+
 ## About find_replace_string
 
-Find a string in a file and replace it with a new one.
-
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+Find a string in a file and replace it with a new one. Takes three arguments: `path_to_file`, `old_string` and `new_string`.
 
 ## Example
 
